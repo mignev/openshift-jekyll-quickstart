@@ -1,0 +1,11 @@
+pushd ${OPENSHIFT_REPO_DIR}src > /dev/null
+    echo "* Compiling jekyll sources and generate your static site :)"
+
+    bundle exec jekyll build
+
+    rm -rf ${OPENSHIFT_REPO_DIR}public
+    mkdir -p ${OPENSHIFT_REPO_DIR}public
+    mv _site/* ${OPENSHIFT_REPO_DIR}public
+
+    echo "* Yeahh it is build :)"
+popd > /dev/null
