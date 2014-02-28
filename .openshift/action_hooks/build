@@ -1,3 +1,6 @@
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 pushd ${OPENSHIFT_REPO_DIR}src > /dev/null
     echo "* Compiling jekyll sources and generate your static site :)"
 

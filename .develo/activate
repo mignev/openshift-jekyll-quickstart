@@ -1,0 +1,27 @@
+##########################################################################
+#                                                                        #
+#  This script is called when you open directory with installed .develo  #
+#  or when you write the command : "develo activate"                     #
+#                                                                        #
+#  This script is a perfect place for logic like:                        #
+#                                                                        #
+#  - "rvm use 1.9.3" if you use RVM for Ruby ...                         #
+#                                                                        #
+#  - "source venv/bin/activate" if you use Python virtualenv.py          #
+#                                                                        #
+#                    And stuff like these :)                             #
+#                                                                        #
+##########################################################################
+
+####
+# Replace these lines of echo code with your meaningful implementation
+
+## Git summary is part of
+# https://github.com/visionmedia/git-extras
+
+git summary 2&> /dev/null
+if [ $? -eq 0 ]; then
+  git summary
+fi
+
+####
