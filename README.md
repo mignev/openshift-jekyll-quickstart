@@ -25,3 +25,7 @@ That's it! Now you have Jekyll on OpenShift :) Enjoy!
 # License
 
 This code is dedicated to the public domain to the maximum extent permitted by applicable law, pursuant to CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mignev/openshift-jekyll-quickstart/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
